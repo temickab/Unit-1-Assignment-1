@@ -199,6 +199,12 @@ nav ul li a{
         transform: translateX(0);
     }
 
+    .hidden {
+        display: none;
+    }
+
+
+
 
 
 
