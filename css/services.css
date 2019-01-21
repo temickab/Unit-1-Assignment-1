@@ -58,22 +58,22 @@ nav ul li:last-child {
     margin-right: 24px;
 }
 
-a:hover{
-    background-color: #fff;
+li:hover{
+    background-color: rgb(109, 105, 105);
     border-radius: 20px;
 }
 
 a:link{
-    color: black;
+    color: #000;
 }
 
 a:visited{
-    color: black;
+    color: #000;
 }
 
 
 
-nav ul li a {
+nav ul li a:hover {
     display: inline-block;
     outline: none;
     color: #000;
