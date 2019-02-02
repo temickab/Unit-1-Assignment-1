@@ -93,6 +93,7 @@ nav ul li a:hover {
     margin-left: 45px;
     margin-right: 45px;
     border-radius: 25px;
+    margin-top: 300px;
 }
 
 @media screen and (max-width: 864px) {
@@ -229,20 +230,56 @@ nav ul li a:hover {
 }
 /* End of Nav */
 
-/* article section */
+/* Table - codepen as a reference - https://codepen.io/Orangetronic/pen/pJgpXw */
 
-.para{
-    margin-top: 300px;
-    margin-left: 150px;
-    margin-right: 150px;
+.table{
+    background: #fff;
+    border-radius: 10px;
     text-align: center;
-    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.about{
-    background: white;
-    margin-left: 100px;
-    margin-right: 100px;
-    border-radius: 45px;
-    opacity: 0.9;
+.heading{
+    background: #000;
+    color: #fff;
+    opacity: 0.8;
+    text-align: center;
+    border-radius: 10px;
+    
 }
+
+table.table { 
+    width: 100%; 
+}
+
+.table th, .table td {  
+  padding: 0.25em;
+}
+
+.table tr { 
+  border-bottom: 1px solid #DDD;
+}
+
+
+@media screen and (max-width: 800px) {
+  tr { 
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0.5em 0;
+    border: 1px solid rgba(3,3,3,0.2);
+  }
+
+  td, th {
+    flex: 1 1 1px;
+    border: 0.5px solid rgba(3,3,3,0.2);
+  }
+}
+
+
+
+
+
