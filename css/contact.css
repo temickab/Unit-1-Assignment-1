@@ -216,3 +216,11 @@ nav ul li a:hover {
 .hidden {
     display: none;
 }
+
+
+/* Contact Us Form */
+.table{
+    background: #fff;
+    margin-top: 300px;
+    margin-left: 500px;
+}

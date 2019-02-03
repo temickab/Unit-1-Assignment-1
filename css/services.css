@@ -138,6 +138,7 @@ nav ul li a:hover {
     opacity: 0.8;
     width: 400px;
     height: 400px;
+    border-radius: 20px;
 
 
 }
@@ -148,6 +149,8 @@ nav ul li a:hover {
     opacity: 0.8;
     width: 400px;
     height: 400px;
+    border-radius: 20px;
+
 
 }
 
@@ -157,7 +160,21 @@ nav ul li a:hover {
     opacity: 0.8;
     width: 400px;
     height: 400px;
+    border-radius: 20px;
 
+
+}
+
+/* footer */
+.footer{
+    text-align: center;
+    color: #fff;
+    background: #000;
+    opacity: 0.9;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 10px;
+    border-radius: 25px;
 }
 
 /* Media Queries */
@@ -269,4 +286,6 @@ nav ul li a:hover {
         flex-direction: column;
         justify-content: space-between;
     }
+
+
 }

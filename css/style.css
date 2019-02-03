@@ -91,26 +91,40 @@ nav ul li a:hover {
     font-weight: 600;
 } /*end of hover effect for navigation*/
 
-/*End Of Nav styling*/
-.box{
-    /* text-align: center; */
+/* Content of the page */
+
+.wrapper-one{
+    opacity: 0.9;
+    width: 1200px;
+    height: 550px;
+    display: flex;
+    padding-top: 150px;
+    margin-top: 200px;
+    margin-left: 120px;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+
+
+.box-one{
     color: #fff;
-    background-color: #000;
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-top: 180px;
-    border-radius: 25px;
-    opacity: 0.7;
-}
-
-.left{
-    text-align: left; /*format for left side of home page*/
+    background: black;
+    width: 450px;
+    height: 250px;
 
 }
+.box-two{
+    color: #fff;
+    background: black;
+    width: 450px;
+    height: 250px;
+    
 
-.right{
-    text-align: right;
 }
+
+
+
+
 /*Beginning of footer styling*/
 .footer{
     text-align: center;
@@ -220,6 +234,15 @@ nav ul li a:hover {
     .nav-btn i:nth-child(3) {
           margin-top: 4px;
     }
+
+    .wrapper-one{
+        opacity: 0.9;
+        height: 1000px;
+        display: flex;
+        padding-top: 150px;
+        margin-top: 200px;
+        flex-direction: colum;
+    }
 }
 
 #nav:checked + .nav-btn {
@@ -256,5 +279,9 @@ nav ul li a:hover {
 .hidden {
     display: none;
 }
+
+
+
+
 
 /* End of Media Responsive styling */
