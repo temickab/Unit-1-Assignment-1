@@ -70,7 +70,7 @@ nav ul li:last-child {
 /* li:hover{ /* hover effect for navigation */
     /* background-color: rgb(109, 105, 105);
     border-radius: 20px;
-} */ */
+} */ 
 
 a:link{
     color: #000;
@@ -241,7 +241,7 @@ nav ul li a:hover {
         display: flex;
         padding-top: 150px;
         margin-top: 200px;
-        flex-direction: colum;
+        flex-direction: column;
     }
 }
 
