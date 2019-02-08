@@ -19,6 +19,7 @@ body {
     background: url('../images/frank-mckenna-135720-unsplash.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {

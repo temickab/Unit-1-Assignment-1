@@ -19,6 +19,7 @@ body {
     background: url('../images/frederik-trovatten-com-617064-unsplash.jpg'); /*Background Image*/
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -85,26 +86,40 @@ nav ul li a:hover {
     font-weight: 600;
 } /*end of hover effect for navigation*/
 
-/*End Of Nav styling*/
-.box{
-    /* text-align: center; */
-    color: #fff;
-    background-color: #000;
-    margin-left: 45px;
-    margin-right: 45px;
-    margin-top: 180px;
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* Photo Gallery */
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    justify-content: space-around;
+}
+
+
+img{
+    width: 300px;
+    height: 300px;
     border-radius: 25px;
-    opacity: 0.7;
+    filter: grayscale(100%);
+    transition: 1s;
 }
 
-.left{
-    text-align: left; /*format for left side of home page*/
-
+.container img:hover{
+    filter: grayscale(0);
 }
 
-.right{
-    text-align: right;
-}
+
+
+
+
+
+
+
 /*Beginning of footer styling*/
 .footer{
     text-align: center;

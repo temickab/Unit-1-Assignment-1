@@ -19,6 +19,7 @@ body {
     background: url('../images/jordan-whitt-54480-unsplash.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {

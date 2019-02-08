@@ -20,6 +20,7 @@ body {
     background: url('../images/joshua-clay-27368-unsplash.jpg');
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 nav {
@@ -264,6 +265,13 @@ table.table {
 .table tr { 
   border-bottom: 1px solid #DDD;
 }
+
+/* Audio player */
+.sound-container{
+    margin-left: 500px;
+
+}
+
 
 
 @media screen and (max-width: 800px) {
