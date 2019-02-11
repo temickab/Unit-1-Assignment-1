@@ -37,21 +37,40 @@
             </nav>
       </div>
 
+   
+<div class="wrapper"> <!--This is the form I will use after this class is over. Css is already provided -->
       <h1>Contact Us</h1>
+<form class="contact-form" action="response_page.php" method="post">
+      <fieldset class="input-fields">
+            <input type="text" name="name" class="input" placeholder="Name"> <!--Input Fields-->
+            <input type="text" name="email" class="input" placeholder="Email">
+            <input type="text" name="phone" class="input" placeholder="Phone">
+            <input type="text" name="subject" class="input" placeholder="Subject">
+            <label class="label-f" style="color: #fff;">Message:</label>
+            <textarea class="text-area" name="message" placeholder="Type Message Here"></textarea>
+      </fieldset>
+      <button class="btn" type="submit" value="submit"> SUBMIT</button> <!--Submit Button-->
+      <select>
+            <h5>Choose Time</h5><!--Label Choice-->
+            <option>Christmas</option>
+            <option>Halloween</option>
+            <option>ThanksGiving</option>
+      </select>
 
-      <table class="table"> <!--Simple table Responsive but not fully-->
-            <tr>
-                  <th>Email</th> <!--Info Heading-->
-                  <th>Phone</th>
-                  <th>Chat</th>
-            </tr>
+</form>
+</div>
 
-            <tr>
-                  <td>love2love@gmail.com</td> <!--Info-->
-                  <td>1-800-luv-2-luv</td>
-                  <td>Click Here to chat with us</td>
-            </tr>
-      </table>
+
+
+
+
+
+
+
+
+
+
+
 
 
       
